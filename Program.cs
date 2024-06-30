@@ -11,7 +11,7 @@ var app = builder.Build();
 
 app.MapGet("/", () => "server online!");
 app.MapGamesEndpoints();
-app.MigrateDb();
+await app.MigrateDbAsync();
 
 app.Run();
 
