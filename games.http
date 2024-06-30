@@ -1,1 +1,13 @@
+
+###
 GET http://localhost:5119
+
+###
+POST http://localhost:5119/games
+Content-Type: application/json
+{
+    "name":"fsdfsdfsdfsdf",
+    "genre":"fd",
+    "price":28.66,
+    "releaseDate":"2011-01-01"
+}
