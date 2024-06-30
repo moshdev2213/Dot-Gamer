@@ -1,6 +1,8 @@
 
 # Dot Gamer
 
+<img width="1024" alt="Slide 4_3 - 1 (5)" src="https://github.com/moshdev2213/dotnet_gamestore/assets/103739510/1c3fd569-ed2b-4460-a04c-0f95ee0768da">
+
 
 ## Description
 
