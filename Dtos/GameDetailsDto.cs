@@ -1,9 +1,11 @@
-﻿namespace GameStore.Dtos;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace GameStore.Dtos;
 
 public record class GameDetailsDto(
     int Id,
-    string Name,
+    [Required][StringLength(50)] string Name,
     int GenreId,
-    decimal Price,
+    [Range(1,100)] decimal Price,
     DateOnly ReleaseDate
 );

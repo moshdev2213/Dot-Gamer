@@ -19,28 +19,26 @@ public static class GameMapping
 
     public static GameSummaryDto ToGameSummaryDto(this Game game)
     {
-        GameSummaryDto gameDto = new(
-               game.Id,
-               game.Name,
-               game.Genre!.Name,
-               game.Price,
-               game.ReleaseDate
-           );
-        return gameDto;
+        return new(
+          game.Id,
+          game.Name,
+          game.Genre!.Name,
+          game.Price,
+          game.ReleaseDate
+      );
     }
     public static GameDetailsDto ToGameDetailsDto(this Game game)
     {
-        GameDetailsDto gameDto = new(
-               game.Id,
-               game.Name,
-               game.Genre.Id,
-               game.Price,
-               game.ReleaseDate
-           );
-        return gameDto;
+        return new(
+            game.Id,
+            game.Name,
+            game.GenreId,
+            game.Price,
+            game.ReleaseDate
+        );
     }
 
-    public static Game ToEntity(this UpdateGameDto gameDto,int id)
+    public static Game ToEntity(this UpdateGameDto gameDto, int id)
     {
         Game game = new()
         {
