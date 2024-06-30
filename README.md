@@ -35,4 +35,12 @@ This project leverages modern web technologies and frameworks such as C#, ASP.NE
 }
 ```
 
+## Credits
+
+special credits for 📚;
+
+```javascript
+    "https://youtu.be/AhAxLiGC7Pc?si=qNe_2IpsomG8oGxT"
+```
+
 This README provides a structured overview of the API endpoints, technologies used, and steps to get started with the Dot Gamer API. Adjust the content as per your project's specific details and requirements.
